@@ -1,0 +1,152 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-image:linear-gradient(to left top, aqua,white,aqua);
+}
+
+.back{
+    min-width: 97vw;
+    min-height: 100vh;
+    padding: 0%;
+    margin: 0%;
+    align-self: center;
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(0, 255, 213);
+    margin: 0;
+    padding: 20px 0px;
+    border-bottom: 1px solid black;
+}
+
+
+.tagline{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(158, 255, 242);
+    padding: 10px 20px;
+    margin: 30px auto 5px;
+    border-radius: 15px;
+    border: 1px dotted black;
+}
+
+h4{
+    margin: 0%;
+    display: flex;
+}
+.info{
+    width: 20px;
+    height: 20px;
+    margin: 0%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.child {
+    display: inline-block;
+    background-color: rgb(158, 255, 242);
+    margin: 10px 0 10px 2%;
+    width: calc(90% * (1/3));
+    border-radius: 5px;
+    border: 1px dotted black;
+}
+
+
+img{
+    width: 70%;
+    margin-left: 15%;
+    height: 83.33%;
+}
+
+.content{
+    height: 80px;
+    background-color: rgb(0, 255, 221);
+    overflow: hidden;
+}
+
+h3{
+    text-align: center;
+    max-lines: 3;
+    vertical-align: middle;
+    font-size: 100%;
+    overflow: hidden;
+    padding: 2px 10px;
+    margin: 0;
+}
+
+p{
+    max-lines: 1;
+    color: rgb(77, 77, 77);
+    font-size: 90%;
+    overflow: hidden;
+    margin: 0;
+    padding: 2px 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+b{
+    color: blue;
+}
+
+.tagline b{
+    color: red;
+}
+
+
+@media only screen and (max-width:650px){
+
+    h1 {
+        font-size: 1.2rem;
+        padding: 10px 0px;
+    }
+
+    h3{
+        font-size: 90%;
+        font-weight: 600;
+        padding: 2px 10px;
+        margin: 0;
+    }
+
+    .child {
+        width: 90%;
+        margin: 2% 4% ;
+    }
+
+    img{
+        width: 70%;
+        margin-left: 15%;
+        height: 66.66%;
+    }
+
+    .tagline{
+        width: 80%;
+        padding: 5px 10px;
+        margin: 5px auto 5px;
+        border-radius: 10px;
+    }
+    
+    h4{
+        font-size: 12px;
+        margin: 0%;
+        display: flex;
+    }
+    .info{
+        width: 15px;
+        height: 15px;
+    }
+
+    .tagline b{
+        font-size: 12px;
+    }
+}
